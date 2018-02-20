@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        //"experimentalDecorators": true,
+        "target": "lua",
+        "noHeader": true,
+        "typeRoots": [
+            //"@types",
+            "./types/shared",
+            "./types/server",
+            "./types/client"
+        ]
+    }
+}
